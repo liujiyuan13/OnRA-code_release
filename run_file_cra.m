@@ -8,7 +8,7 @@ addpath([proj_path, '/eval']);
 data_path = 'D:\Work\datasets\mData\Fmatrix\';
 data_names = {'Flower17', 'Caltech101-all', 'AwA', 'MNIST', 'YtVideo_sel'};
 
-for id = 1
+for id = 1:length(data_names)
     
     data_name = data_names{id};
     fprintf('\n# data_name: %s', data_name);
