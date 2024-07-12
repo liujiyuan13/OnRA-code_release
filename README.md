@@ -21,17 +21,17 @@ The correlation measurement between data representations is the basis of machine
 
 ```
 ...
-+ eval				# Matlab functions for evaluation
-+ plot 				# plot results
-.gitignore 			
-EuDist2.m			# tool function
-get_res.m    		# obtain results
-LICENSE.py 			# license file
++ eval              # Matlab functions for evaluation
++ plot              # plot results
+.gitignore
+EuDist2.m           # tool function
+get_res.m           # obtain results
+LICENSE.py          # license file
 mc_cra.m            # MCCRA algorithm
 mc_ra.m             # MCRA algorithm
 README.md 
-run_file_cra.m 	    # run file (example) of MCCRA algorithm
-run_file_ra.m 		# run file (example) of MCRA algorithm
+run_file_cra.m      # run file (example) of MCCRA algorithm
+run_file_ra.m       # run file (example) of MCRA algorithm
 ```
 
 ## Usage
@@ -47,9 +47,8 @@ run_file_ra.m 		# run file (example) of MCRA algorithm
 ```
 3. Get results. 
 ```
-> get_res			# 'res_out' format: [dataset, metrics(acc,nmi,purity), algorithm(MCKA, MCRA, MCCRA)]
+> get_res       # 'res_out' format: [dataset, (acc,nmi,purity), (MCKA, MCRA, MCCRA)]
 ```
-
 
 ## Citation
 
